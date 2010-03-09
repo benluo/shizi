@@ -1,0 +1,9 @@
+{
+	"id": "org.benluo.shizi",
+	"version": "0.0.1",
+	"vendor": "Ben Luo <benluo@gmail.com>",
+	"type": "web",
+	"main": "index.html",
+	"title": "Shizi",
+	"icon": "icon.png"
+}

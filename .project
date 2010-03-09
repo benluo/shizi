@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>shizi</name>
+	<comment>Cloned from https://shizi.googlecode.com/hg/ shizi  </comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+               <nature>com.palm.pdt.nature</nature>
+	</natures>
+</projectDescription>

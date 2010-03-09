@@ -1,0 +1,12 @@
+/* Put Application specific CSS here. */
+.hanzi {font-size: 250px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+       }
+
+.pinyin {font-size: 100px;
+	 text-align: center;
+	 margin: 0px;
+	 padding: 0px;
+	}

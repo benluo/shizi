@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="Flow_chart.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.1">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3687">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3689" />
+      <stop
+         id="stop3695"
+         offset="0.52649456"
+         style="stop-color:#000000;stop-opacity:0.47058824;" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3691" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective3654"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3687"
+       id="linearGradient3693"
+       x1="588.20895"
+       y1="105.47429"
+       x2="662.39113"
+       y2="105.47429"
+       gradientUnits="userSpaceOnUse" />
+    <inkscape:perspective
+       id="perspective3749"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="375"
+     inkscape:cy="291.72444"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1024"
+     inkscape:window-height="708"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ececec"
+       id="rect2816"
+       width="153.54318"
+       height="197.9899"
+       x="54.548237"
+       y="14.534523"
+       ry="42.808628" />
+    <text
+       xml:space="preserve"
+       style="font-size:30.67954445px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="71.445488"
+       y="61.582268"
+       id="text2818"
+       transform="scale(0.89055497,1.1228953)"><tspan
+         sodipodi:role="line"
+         id="tspan2820"
+         x="71.445488"
+         y="61.582268">User Name</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2840"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;font-style:normal;font-weight:normal;font-size:40px"><flowRegion
+         id="flowRegion2842"><rect
+           id="rect2844"
+           width="88.893425"
+           height="42.426407"
+           x="90.913727"
+           y="163.42795" /></flowRegion><flowPara
+         id="flowPara2846" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-opacity:0.37790695;font-family:Bitstream Vera Sans"
+       x="94.954338"
+       y="131.7122"
+       id="text2848"><tspan
+         sodipodi:role="line"
+         id="tspan2850"
+         x="94.954338"
+         y="131.7122">Add</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:25.41521263px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="62.785168"
+       y="198.7737"
+       id="text3624"
+       transform="scale(1.0927361,0.91513404)"><tspan
+         sodipodi:role="line"
+         id="tspan3626"
+         x="62.785168"
+         y="198.7737">1.1 dialog</tspan><tspan
+         sodipodi:role="line"
+         x="62.785168"
+         y="230.54271"
+         id="tspan3628" /></text>
+    <rect
+       ry="42.808628"
+       y="14.534523"
+       x="276.57977"
+       height="197.9899"
+       width="153.54318"
+       id="rect3630"
+       style="fill:#ececec" />
+    <text
+       transform="scale(0.89055497,1.1228953)"
+       id="text3632"
+       y="62.841694"
+       x="342.99582"
+       style="font-size:30.67954445px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="62.841694"
+         x="342.99582"
+         id="tspan3634"
+         sodipodi:role="line">Learn</tspan></text>
+    <text
+       transform="scale(1.0927361,0.91513404)"
+       id="text3640"
+       y="198.77367"
+       x="265.97379"
+       style="font-size:25.41521263px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="198.77367"
+         x="265.97379"
+         id="tspan3642"
+         sodipodi:role="line">1.2 dialog</tspan><tspan
+         id="tspan3644"
+         y="230.54268"
+         x="265.97379"
+         sodipodi:role="line" /></text>
+    <text
+       transform="scale(0.89055497,1.1228953)"
+       id="text3632-1"
+       y="106.14751"
+       x="346.54922"
+       style="font-size:30.67954445px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="106.14751"
+         x="346.54922"
+         id="tspan3634-7"
+         sodipodi:role="line">Test</tspan></text>
+    <rect
+       style="fill:#ececec"
+       id="rect3671"
+       width="149.35081"
+       height="289.95865"
+       x="496.65146"
+       y="9.2119713"
+       ry="32.976707"
+       transform="matrix(0.99997684,0.00680595,-0.00570981,0.9999837,0,0)"
+       rx="25.39892" />
+    <text
+       xml:space="preserve"
+       style="font-size:25.41521263px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="466.57401"
+       y="299.22192"
+       id="text3677"
+       transform="scale(1.0927361,0.91513404)"><tspan
+         sodipodi:role="line"
+         id="tspan3679"
+         x="466.57401"
+         y="299.22192">1.3 dialog</tspan><tspan
+         sodipodi:role="line"
+         x="466.57401"
+         y="330.99094"
+         id="tspan3681" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:30.67954445px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="579.98724"
+       y="92.293732"
+       id="text3683"
+       transform="scale(0.89055497,1.1228953)"><tspan
+         sodipodi:role="line"
+         id="tspan3685"
+         x="579.98724"
+         y="92.293732">grade 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:27.69934654px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="517.90161"
+       y="43.65868"
+       id="text3697"
+       transform="scale(0.97064555,1.0302422)"><tspan
+         sodipodi:role="line"
+         id="tspan3699"
+         x="517.90161"
+         y="43.65868">Choose lib</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:30.36203957px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="551.0647"
+       y="135.00339"
+       id="text3713"
+       transform="scale(0.93738494,1.0667976)"><tspan
+         sodipodi:role="line"
+         id="tspan3715"
+         x="551.0647"
+         y="135.00339">grade 2</tspan></text>
+    <text
+       id="text3717"
+       y="236.36398"
+       x="536.18896"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-opacity:0.37790695;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="236.36398"
+         x="536.18896"
+         id="tspan3719"
+         sodipodi:role="line">OK</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 207.88939,115.54977 72.1249,0"
+       id="path3729"
+       inkscape:connector-type="polyline" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 429.92092,112.72135 63.63961,1.41421"
+       id="path3733"
+       inkscape:connector-type="polyline" />
+    <text
+       xml:space="preserve"
+       style="font-size:18.66977501px;font-style:normal;font-weight:normal;fill:#800080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="581.96564"
+       y="152.38103"
+       id="text3713-4"
+       transform="scale(0.90073967,1.1101987)"><tspan
+         sodipodi:role="line"
+         id="tspan3715-0"
+         x="581.96564"
+         y="152.38103">Multi-select</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#800080;fill-opacity:1;stroke:#000000;stroke-opacity:0.37790695"
+       id="path3766"
+       sodipodi:cx="671.04431"
+       sodipodi:cy="91.404068"
+       sodipodi:rx="38.890873"
+       sodipodi:ry="37.476658"
+       d="m 709.93518,91.404068 a 38.890873,37.476658 0 1 1 -77.78174,0 38.890873,37.476658 0 1 1 77.78174,0 z"
+       transform="translate(-3.5253795e-8,-41.615223)" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.62700653px;font-style:normal;font-weight:normal;fill:#ffff00;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="638.86047"
+       y="53.264721"
+       id="text3768"
+       transform="scale(0.99510142,1.0049227)"><tspan
+         sodipodi:role="line"
+         id="tspan3770"
+         x="638.86047"
+         y="53.264721">Option</tspan></text>
+    <rect
+       ry="62.087227"
+       y="256.33102"
+       x="12.154881"
+       height="287.15341"
+       width="187.41821"
+       id="rect3772"
+       style="fill:#ececec" />
+    <text
+       transform="scale(0.72162953,1.3857526)"
+       id="text3774"
+       y="302.33109"
+       x="33.314827"
+       style="font-size:100.79727936px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="302.33109"
+         x="33.314827"
+         id="tspan3776"
+         sodipodi:role="line">Yong</tspan></text>
+    <text
+       id="text3778"
+       y="621.01208"
+       x="14.138719"
+       style="font-size:21.63588333px;font-style:normal;font-weight:normal;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.54089713;stroke-opacity:0.37790695;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       transform="scale(1.2786053,0.78210219)"><tspan
+         y="621.01208"
+         x="14.138719"
+         id="tspan3780"
+         sodipodi:role="line"
+         style="stroke-width:0.54089713">Pre</tspan></text>
+    <text
+       transform="scale(1.0241037,0.97646357)"
+       id="text3782"
+       y="535.54559"
+       x="31.323433"
+       style="font-size:33.10139465px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="535.54559"
+         x="31.323433"
+         id="tspan3784"
+         sodipodi:role="line">2.1 scene</tspan><tspan
+         id="tspan3786"
+         y="576.9223"
+         x="31.323433"
+         sodipodi:role="line" /></text>
+    <text
+       transform="scale(0.89768047,1.1139821)"
+       id="text3788"
+       y="268.07327"
+       x="46.267311"
+       style="font-size:37.53306961px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="268.07327"
+         x="46.267311"
+         id="tspan3790"
+         sodipodi:role="line">Learning</tspan></text>
+    <text
+       transform="scale(0.7863217,1.2717441)"
+       xml:space="preserve"
+       style="font-size:20.8953495px;font-style:normal;font-weight:normal;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.52238381;stroke-opacity:0.37790695;font-family:Bitstream Vera Sans"
+       x="103.55891"
+       y="384.90939"
+       id="text3792"><tspan
+         style="stroke-width:0.52238381"
+         sodipodi:role="line"
+         id="tspan3794"
+         x="103.55891"
+         y="384.90939">Voice</tspan></text>
+    <text
+       id="text3796"
+       y="622.18011"
+       x="108.54525"
+       style="font-size:21.63588333px;font-style:normal;font-weight:normal;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.54089713;stroke-opacity:0.37790695;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       transform="scale(1.2786053,0.78210219)"><tspan
+         y="622.18011"
+         x="108.54525"
+         id="tspan3798"
+         sodipodi:role="line"
+         style="stroke-width:0.54089713">Next</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="M 490.73211,463.44631 197.9899,383.43917"
+       id="path3800"
+       inkscape:connector-type="polyline" />
+    <path
+       transform="matrix(2.6343569,0,0,0.50735144,-1550.6884,274.94387)"
+       d="m 709.93518,91.404068 a 38.890873,37.476658 0 1 1 -77.78174,0 38.890873,37.476658 0 1 1 77.78174,0 z"
+       sodipodi:ry="37.476658"
+       sodipodi:rx="38.890873"
+       sodipodi:cy="91.404068"
+       sodipodi:cx="671.04431"
+       id="path3802"
+       style="fill:#800080;fill-opacity:1;stroke:#000000;stroke-opacity:0.37790695"
+       sodipodi:type="arc" />
+    <text
+       transform="scale(1.0957322,0.91263178)"
+       id="text3804"
+       y="352.95135"
+       x="115.83826"
+       style="font-size:13.95178413px;font-style:normal;font-weight:normal;fill:#ffff00;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="352.95135"
+         x="115.83826"
+         id="tspan3806"
+         sodipodi:role="line">Push to show Pinyin or Char</tspan></text>
+    <rect
+       rx="29.473291"
+       transform="matrix(0.99998984,0.00450868,-0.00861902,0.99996286,0,0)"
+       ry="25.35071"
+       y="319.38721"
+       x="498.10452"
+       height="222.90451"
+       width="173.30894"
+       id="rect3808"
+       style="fill:#ececec" />
+    <text
+       transform="scale(1.2467577,0.80208048)"
+       id="text3810"
+       y="651.3576"
+       x="407.759"
+       style="font-size:22.29124069px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="651.3576"
+         x="407.759"
+         id="tspan3812"
+         sodipodi:role="line">3.1 dialog</tspan><tspan
+         id="tspan3814"
+         y="679.22168"
+         x="407.759"
+         sodipodi:role="line" /></text>
+    <text
+       transform="scale(1.016079,0.9841754)"
+       id="text3816"
+       y="397.90652"
+       x="506.89917"
+       style="font-size:26.90849495px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="397.90652"
+         x="506.89917"
+         id="tspan3818"
+         sodipodi:role="line">User 1</tspan></text>
+    <text
+       transform="scale(1.1074584,0.90296844)"
+       id="text3820"
+       y="383.75452"
+       x="452.59329"
+       style="font-size:24.2946167px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="383.75452"
+         x="452.59329"
+         id="tspan3822"
+         sodipodi:role="line">Choose User</tspan></text>
+    <text
+       transform="scale(1.0695097,0.93500787)"
+       id="text3824"
+       y="452.03372"
+       x="481.62152"
+       style="font-size:26.63001823px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="452.03372"
+         x="481.62152"
+         id="tspan3826"
+         sodipodi:role="line">User 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:35.08330536px;font-style:normal;font-weight:normal;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.87708265;stroke-opacity:0.37790695;font-family:Bitstream Vera Sans"
+       x="468.68124"
+       y="563.22034"
+       id="text3828"
+       transform="scale(1.1409504,0.8764623)"><tspan
+         sodipodi:role="line"
+         id="tspan3830"
+         x="468.68124"
+         y="563.22034"
+         style="stroke-width:0.87708265">OK</tspan></text>
+    <text
+       transform="scale(1.0276993,0.9730473)"
+       id="text3832"
+       y="454.23257"
+       x="508.65472"
+       style="font-size:16.37493515px;font-style:normal;font-weight:normal;fill:#800080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="454.23257"
+         x="508.65472"
+         id="tspan3834"
+         sodipodi:role="line">mono-select</tspan></text>
+    <path
+       transform="translate(9.8994949,227.08535)"
+       d="m 709.93518,91.404068 a 38.890873,37.476658 0 1 1 -77.78174,0 38.890873,37.476658 0 1 1 77.78174,0 z"
+       sodipodi:ry="37.476658"
+       sodipodi:rx="38.890873"
+       sodipodi:cy="91.404068"
+       sodipodi:cx="671.04431"
+       id="path3836"
+       style="fill:#800080;fill-opacity:1;stroke:#000000;stroke-opacity:0.37790695"
+       sodipodi:type="arc" />
+    <text
+       transform="scale(0.99510142,1.0049227)"
+       id="text3838"
+       y="320.64902"
+       x="648.80865"
+       style="font-size:24.62700653px;font-style:normal;font-weight:normal;fill:#ffff00;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="320.64902"
+         x="648.80865"
+         id="tspan3840"
+         sodipodi:role="line">Option</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.87708265px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 565.67455,300.75029 0,21.74296"
+       id="path3842"
+       inkscape:connector-type="polyline" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="m 571.34228,540.41687 50.91169,94.75231"
+       id="path3844"
+       inkscape:connector-type="polyline" />
+    <rect
+       style="fill:#ececec"
+       id="rect3848"
+       width="177.54736"
+       height="243.28333"
+       x="560.85541"
+       y="642.42603"
+       ry="52.601799" />
+    <text
+       xml:space="preserve"
+       style="font-size:133.96434021px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="430.04214"
+       y="1028.2742"
+       id="text3850"
+       transform="scale(1.314787,0.76057948)"><tspan
+         sodipodi:role="line"
+         id="tspan3852"
+         x="430.04214"
+         y="1028.2742">永</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:29.65491676px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="535.33972"
+       y="940.30396"
+       id="text3858"
+       transform="scale(1.0829191,0.92343002)"><tspan
+         sodipodi:role="line"
+         id="tspan3860"
+         x="535.33972"
+         y="940.30396">4.1 scene</tspan><tspan
+         sodipodi:role="line"
+         x="535.33972"
+         y="977.37262"
+         id="tspan3862" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:33.62516785px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="620.16931"
+       y="643.82965"
+       id="text3864"
+       transform="scale(0.94923519,1.0534797)"><tspan
+         sodipodi:role="line"
+         id="tspan3866"
+         x="620.16931"
+         y="643.82965">Evaluate</tspan></text>
+    <text
+       id="text3868"
+       y="698.42554"
+       x="753.45386"
+       style="font-size:18.71974945px;font-style:normal;font-weight:normal;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.46799383;stroke-opacity:0.37790695;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       transform="scale(0.831481,1.2026733)"><tspan
+         y="698.42554"
+         x="753.45386"
+         id="tspan3870"
+         sodipodi:role="line"
+         style="stroke-width:0.46799383">Result</tspan></text>
+    <rect
+       ry="52.601799"
+       y="639.5976"
+       x="360.03708"
+       height="243.28333"
+       width="177.54736"
+       id="rect3880"
+       style="fill:#ececec" />
+    <text
+       transform="scale(0.91972544,1.087281)"
+       id="text3882"
+       y="705.64453"
+       x="396.74951"
+       style="font-size:78.26486969px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="705.64453"
+         x="396.74951"
+         id="tspan3884"
+         sodipodi:role="line">Yong</tspan></text>
+    <text
+       transform="scale(1.0829191,0.92343002)"
+       id="text3886"
+       y="937.24103"
+       x="349.89804"
+       style="font-size:29.65491676px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="937.24103"
+         x="349.89804"
+         id="tspan3888"
+         sodipodi:role="line">4.2 scene</tspan><tspan
+         id="tspan3890"
+         y="974.30969"
+         x="349.89804"
+         sodipodi:role="line" /></text>
+    <text
+       transform="scale(0.94923519,1.0534797)"
+       id="text3892"
+       y="641.14484"
+       x="408.6113"
+       style="font-size:33.62516785px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="641.14484"
+         x="408.6113"
+         id="tspan3894"
+         sodipodi:role="line">Evaluate</tspan></text>
+    <text
+       transform="scale(0.831481,1.2026733)"
+       xml:space="preserve"
+       style="font-size:18.71974945px;font-style:normal;font-weight:normal;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.46799383;stroke-opacity:0.37790695;font-family:Bitstream Vera Sans"
+       x="477.9183"
+       y="697.24963"
+       id="text3896"><tspan
+         style="stroke-width:0.46799383"
+         sodipodi:role="line"
+         id="tspan3898"
+         x="477.9183"
+         y="697.24963">Right</tspan></text>
+    <rect
+       style="fill:#ececec"
+       id="rect3900"
+       width="148.0318"
+       height="210.24406"
+       x="191.25568"
+       y="568.16107"
+       ry="23.910851"
+       transform="matrix(0.99998761,0.00497878,-0.00780524,0.99996954,0,0)"
+       rx="25.174606" />
+    <text
+       xml:space="preserve"
+       style="font-size:20.0080452px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="166.84258"
+       y="899.92584"
+       id="text3902"
+       transform="scale(1.1864371,0.84285969)"><tspan
+         sodipodi:role="line"
+         id="tspan3904"
+         x="166.84258"
+         y="899.92584">4.3 dialog</tspan><tspan
+         sodipodi:role="line"
+         x="166.84258"
+         y="924.93591"
+         id="tspan3906" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24.15237427px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="210.61525"
+       y="614.09991"
+       id="text3908"
+       transform="scale(0.96691908,1.0342127)"><tspan
+         sodipodi:role="line"
+         id="tspan3910"
+         x="210.61525"
+         y="614.09991">Right 10</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:21.80622482px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="208.39731"
+       y="624.5058"
+       id="text3912"
+       transform="scale(1.0538774,0.94887698)"><tspan
+         sodipodi:role="line"
+         id="tspan3914"
+         x="208.39731"
+         y="624.5058">Result</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:23.90242195px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="200.13467"
+       y="676.19489"
+       id="text3916"
+       transform="scale(1.0177647,0.98254538)"><tspan
+         sodipodi:role="line"
+         id="tspan3918"
+         x="200.13467"
+         y="676.19489">Wrong 2</tspan></text>
+    <text
+       transform="scale(1.0857489,0.92102326)"
+       id="text3920"
+       y="794.05927"
+       x="203.05632"
+       style="font-size:31.48987579px;font-style:normal;font-weight:normal;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.78724688;stroke-opacity:0.37790695;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.78724688"
+         y="794.05927"
+         x="203.05632"
+         id="tspan3922"
+         sodipodi:role="line">OK</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#800080;fill-opacity:1;stroke:#000000;stroke-opacity:0.37790695"
+       id="path3930"
+       sodipodi:cx="671.04431"
+       sodipodi:cy="91.404068"
+       sodipodi:rx="38.890873"
+       sodipodi:ry="37.476658"
+       d="m 709.93518,91.404068 a 38.890873,37.476658 0 1 1 -77.78174,0 38.890873,37.476658 0 1 1 77.78174,0 z"
+       transform="matrix(2.6343569,0,0,0.50735144,-1262.1889,576.17136)" />
+    <text
+       xml:space="preserve"
+       style="font-size:13.95178413px;font-style:normal;font-weight:normal;fill:#ffff00;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="388.16672"
+       y="683.01605"
+       id="text3932"
+       transform="scale(1.0957322,0.91263176)"><tspan
+         sodipodi:role="line"
+         id="tspan3934"
+         x="388.16672"
+         y="683.01605">Stop function in Menu</tspan></text>
+    <text
+       transform="scale(1.0443033,0.95757621)"
+       id="text3936"
+       y="721.23096"
+       x="186.00435"
+       style="font-size:20.07274246px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="721.23096"
+         x="186.00435"
+         id="tspan3938"
+         sodipodi:role="line">right rate 80%</tspan></text>
+    <text
+       id="text3940"
+       y="698.42554"
+       x="566.36176"
+       style="font-size:18.71974945px;font-style:normal;font-weight:normal;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.46799383;stroke-opacity:0.37790695;font-family:Bitstream Vera Sans"
+       xml:space="preserve"
+       transform="scale(0.831481,1.2026733)"><tspan
+         y="698.42554"
+         x="566.36176"
+         id="tspan3942"
+         sodipodi:role="line"
+         style="stroke-width:0.46799383">Wrong</tspan></text>
+    <rect
+       style="fill:#ececec"
+       id="rect2944"
+       width="156.32133"
+       height="227.7402"
+       x="12.146955"
+       y="641.00525"
+       ry="49.241123" />
+    <text
+       xml:space="preserve"
+       style="font-size:38.7549324px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="18.679272"
+       y="788.64703"
+       id="text2946"
+       transform="scale(1.1003279,0.90881999)"><tspan
+         sodipodi:role="line"
+         id="tspan2948"
+         x="18.679272"
+         y="788.64703">永</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26.9223156px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="27.388968"
+       y="895.27142"
+       id="text2950"
+       transform="scale(1.0502298,0.95217256)"><tspan
+         sodipodi:role="line"
+         id="tspan2952"
+         x="27.388968"
+         y="895.27142">4.4 scene</tspan><tspan
+         sodipodi:role="line"
+         x="27.388968"
+         y="928.92432"
+         id="tspan2954" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20.71708107px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="41.144257"
+       y="442.62628"
+       id="text2956"
+       transform="scale(0.6544991,1.527886)"><tspan
+         sodipodi:role="line"
+         id="tspan2958"
+         x="41.144257"
+         y="442.62628">Wrong Chars Review</tspan></text>
+    <text
+       transform="scale(0.8063817,1.2401075)"
+       xml:space="preserve"
+       style="font-size:16.99478722px;font-style:normal;font-weight:normal;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.42486975;stroke-opacity:0.37790695;font-family:Bitstream Vera Sans"
+       x="69.486588"
+       y="661.31195"
+       id="text2964"><tspan
+         style="stroke-width:0.42486975"
+         sodipodi:role="line"
+         id="tspan2966"
+         x="69.486588"
+         y="661.31195">Learn again</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 562.857,756.79155 -28.28427,0"
+       id="path2968"
+       inkscape:connector-type="polyline" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 356.38182,673.35295 -26.87006,0"
+       id="path2970"
+       inkscape:connector-type="polyline" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 183.84777,671.93874 -18.38478,1.41421"
+       id="path2972"
+       inkscape:connector-type="polyline" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 87.681241,640.82604 0,-98.99495"
+       id="path2974"
+       inkscape:connector-type="polyline" />
+    <text
+       transform="scale(1.1003279,0.90881999)"
+       id="text2958"
+       y="841.55438"
+       x="104.79206"
+       style="font-size:38.7549324px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="841.55438"
+         x="104.79206"
+         id="tspan2960"
+         sodipodi:role="line">永</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:38.7549324px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="63.663567"
+       y="841.55438"
+       id="text2962"
+       transform="scale(1.1003279,0.90881999)"><tspan
+         sodipodi:role="line"
+         id="tspan2964"
+         x="63.663567"
+         y="841.55438">永</tspan></text>
+    <text
+       transform="scale(1.1003279,0.90881999)"
+       id="text2966"
+       y="836.88611"
+       x="19.964537"
+       style="font-size:38.7549324px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="836.88611"
+         x="19.964537"
+         id="tspan2968"
+         sodipodi:role="line">永</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:38.7549324px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="63.663567"
+       y="787.09094"
+       id="text2970"
+       transform="scale(1.1003279,0.90881999)"><tspan
+         sodipodi:role="line"
+         id="tspan2972"
+         x="63.663567"
+         y="787.09094">永</tspan></text>
+    <text
+       transform="scale(1.1003279,0.90881999)"
+       id="text2974"
+       y="788.64703"
+       x="102.22153"
+       style="font-size:38.7549324px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="788.64703"
+         x="102.22153"
+         id="tspan2976"
+         sodipodi:role="line">永</tspan></text>
+    <rect
+       rx="25.174606"
+       transform="matrix(0.99998761,0.00497878,-0.00780524,0.99996954,0,0)"
+       ry="23.910851"
+       y="816.99719"
+       x="205.92601"
+       height="210.24406"
+       width="148.0318"
+       id="rect3420"
+       style="fill:#ececec" />
+    <text
+       transform="scale(1.1864371,0.84285969)"
+       id="text3422"
+       y="1212.0107"
+       x="171.6105"
+       style="font-size:20.0080452px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="1212.0107"
+         x="171.6105"
+         id="tspan3424"
+         sodipodi:role="line">5.1 scene</tspan><tspan
+         id="tspan3426"
+         y="1237.0208"
+         x="171.6105"
+         sodipodi:role="line" /></text>
+    <text
+       transform="scale(1.0538774,0.94887698)"
+       id="text3432"
+       y="906.19287"
+       x="211.08113"
+       style="font-size:21.80622482px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="906.19287"
+         x="211.08113"
+         id="tspan3434"
+         sodipodi:role="line">Sentence</tspan></text>
+    <path
+       inkscape:connector-type="polyline"
+       id="path3448"
+       d="m 524.53319,934.27535 -186.39611,0"
+       style="fill:none;stroke:#000000;stroke-width:3.84750175px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-type="polyline"
+       id="path3450"
+       d="m 189.50462,934.98246 -18.38478,1.41421"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:WenQuanYi Zen Hei;-inkscape-font-specification:WenQuanYi Zen Hei"
+       x="251.73003"
+       y="984.47992"
+       id="text3454"><tspan
+         sodipodi:role="line"
+         id="tspan3456"
+         x="251.73003"
+         y="984.47992">我</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:WenQuanYi Zen Hei;-inkscape-font-specification:WenQuanYi Zen Hei"
+       x="291.32803"
+       y="983.06573"
+       id="text3458"><tspan
+         sodipodi:role="line"
+         id="tspan3460"
+         x="291.32803"
+         y="983.06573">是</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:WenQuanYi Zen Hei;-inkscape-font-specification:WenQuanYi Zen Hei"
+       x="210.71782"
+       y="984.47992"
+       id="text3470"><tspan
+         sodipodi:role="line"
+         id="tspan3472"
+         x="210.71782"
+         y="984.47992">元</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 203.64675,936.39667 c 121.62237,0 121.62237,0 121.62237,0 l -121.62237,0 z"
+       id="path3474" />
+    <text
+       id="text3476"
+       y="898.21289"
+       x="206.47519"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:WenQuanYi Zen Hei;-inkscape-font-specification:WenQuanYi Zen Hei"
+       xml:space="preserve"><tspan
+         y="898.21289"
+         x="206.47519"
+         id="tspan3478"
+         sodipodi:role="line">我</tspan></text>
+    <text
+       id="text3480"
+       y="898.21295"
+       x="240.41635"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:WenQuanYi Zen Hei;-inkscape-font-specification:WenQuanYi Zen Hei"
+       xml:space="preserve"><tspan
+         y="898.21295"
+         x="240.41635"
+         id="tspan3482"
+         sodipodi:role="line">是</tspan></text>
+    <text
+       id="text3484"
+       y="898.21289"
+       x="272.94321"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:WenQuanYi Zen Hei;-inkscape-font-specification:WenQuanYi Zen Hei"
+       xml:space="preserve"><tspan
+         y="898.21289"
+         x="272.94321"
+         id="tspan3486"
+         sodipodi:role="line">元</tspan></text>
+    <text
+       id="text3488"
+       y="898.21289"
+       x="304.05591"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:WenQuanYi Zen Hei;-inkscape-font-specification:WenQuanYi Zen Hei"
+       xml:space="preserve"><tspan
+         y="898.21289"
+         x="304.05591"
+         id="tspan3490"
+         sodipodi:role="line">元</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:normal;fill:#808000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="217.78889"
+       y="951.953"
+       id="text3492"><tspan
+         sodipodi:role="line"
+         id="tspan3494"
+         x="217.78889"
+         y="951.953">canidate zone</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:normal;fill:#808000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="209.3036"
+       y="925.08301"
+       id="text3496"><tspan
+         sodipodi:role="line"
+         id="tspan3498"
+         x="209.3036"
+         y="925.08301">sentence zone</tspan></text>
+    <path
+       transform="matrix(2.6343569,0,0,0.50735144,-1354.1128,956.59481)"
+       d="m 709.93518,91.404068 a 38.890873,37.476658 0 1 1 -77.78174,0 38.890873,37.476658 0 1 1 77.78174,0 z"
+       sodipodi:ry="37.476658"
+       sodipodi:rx="38.890873"
+       sodipodi:cy="91.404068"
+       sodipodi:cx="671.04431"
+       id="path3500"
+       style="fill:#800080;fill-opacity:1;stroke:#000000;stroke-opacity:0.37790695"
+       sodipodi:type="arc" />
+    <text
+       transform="scale(1.0957322,0.91263176)"
+       id="text3502"
+       y="1102.9575"
+       x="290.07687"
+       style="font-size:13.95178413px;font-style:normal;font-weight:normal;fill:#ffff00;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="1102.9575"
+         x="290.07687"
+         id="tspan3504"
+         sodipodi:role="line">selectt char function in Menu</tspan></text>
+    <rect
+       style="fill:#ececec"
+       id="rect3506"
+       width="105.95994"
+       height="152.40111"
+       x="535.56006"
+       y="895.9646"
+       ry="17.332428"
+       transform="matrix(0.99998729,0.00504198,-0.00770741,0.9999703,0,0)"
+       rx="18.019775" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.41220093px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="462.73361"
+       y="1226.3641"
+       id="text3508"
+       transform="scale(1.1789778,0.84819239)"><tspan
+         sodipodi:role="line"
+         x="462.73361"
+         y="1226.3641"
+         id="tspan3512">5.2 dialog</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15.70746613px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="514.72278"
+       y="972.88354"
+       id="text3514"
+       transform="scale(1.0472515,0.95488046)"><tspan
+         sodipodi:role="line"
+         id="tspan3516"
+         x="514.72278"
+         y="972.88354">Select Char</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20.1689682px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:WenQuanYi Zen Hei;-inkscape-font-specification:WenQuanYi Zen Hei"
+       x="565.44635"
+       y="950.76917"
+       id="text3532"
+       transform="scale(0.99371285,1.0063269)"><tspan
+         sodipodi:role="line"
+         id="tspan3534"
+         x="565.44635"
+         y="950.76917">我</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20.1689682px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:WenQuanYi Zen Hei;-inkscape-font-specification:WenQuanYi Zen Hei"
+       x="567.12433"
+       y="978.87561"
+       id="text3536"
+       transform="scale(0.99371286,1.0063269)"><tspan
+         sodipodi:role="line"
+         id="tspan3538"
+         x="567.12433"
+         y="978.87561">是</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20.1689682px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:WenQuanYi Zen Hei;-inkscape-font-specification:WenQuanYi Zen Hei"
+       x="566.36035"
+       y="1006.9821"
+       id="text3540"
+       transform="scale(0.99371286,1.0063269)"><tspan
+         sodipodi:role="line"
+         id="tspan3542"
+         x="566.36035"
+         y="1006.9821">元</tspan></text>
+  </g>
+</svg>

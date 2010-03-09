@@ -1,0 +1,28 @@
+* General question\
+** What's the function of Class.create in Prototype lib
+
+* showChar Scene
+** 中文字体大小
+** 拼音字体大小
+** Change class style of onechar according to display pinyin or Chinese.
+** Record current character
+** How read voice files from storage
+** How to link characters and voice
+** Store chars in sqlitedb
+** Sort Hanzi
+** How to split to small group. For example 20 chars in a group.
+** Use sentences to learn characters
+** Add check pinyin function in menu.
+
+* Register scene
+** Cancel button function
+
+* charLibsSelect scene
+** Use list to show all characters libs
+
+* Import Primary school charactors and pinyin to list. 
+
+* Add review tested chars function in somewhere.
+* Check if there is FREE text to voice lib.
+* Select known chars and unknown chars.
+* Manage users function (dialog)

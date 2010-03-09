@@ -1,0 +1,30 @@
+[
+    {"source": "app/assistants/stage-assistant.js"},
+    {
+        "scenes": "showChar",
+        "source": "app/assistants/showChar-assistant.js"
+    },
+    {
+        "scenes": "register",
+        "source": "app/assistants/register-assistant.js"
+    },
+    {"source": "app/models/charslib.js"},
+    {"source": "app/models/cookies.js"},
+    {"source": "app/models/persistence.js"},
+    {
+        "scenes": "selectLibs",
+        "source": "app/assistants/selectLibs-assistant.js"
+    },
+    {
+        "scenes": "assem",
+        "source": "app/assistants/assem-assistant.js"
+    },
+    {
+        "scenes": "selectChar",
+        "source": "app/assistants/selectChar-assistant.js"
+    },
+    {
+        "scenes": "tmp",
+        "source": "app/assistants/tmp-assistant.js"
+    }
+]
