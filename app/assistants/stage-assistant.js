@@ -4,7 +4,7 @@ var Shizi = {};
 // Constants
 Shizi.versionString = "0.0.1";
 
-Shizi.context = {};
+//Shizi.context = {};
 // Setup App Menu for all scenes; all menu actions handled in
 Shizi.MenuAttr = {omitDefaultItems: true};
 Shizi.MenuModel = {
@@ -16,8 +16,8 @@ Shizi.MenuModel = {
     ]
 };
 
-var Char = {}
-
+var Char = {};
+var chars = [];
 function StageAssistant() {
 };
 
@@ -43,23 +43,21 @@ StageAssistant.prototype.setup = function() {
         	t.py = chinese.py;
         	persistence.add(t);
         } */
-        persistence.flush(tx, function(){
-        	Char.all().order("latin", false).list(tx, function (results) {
-//        		Mojo.Log.error("the result length is ", results.length);
-        		Shizi.context.chars = results;
-        		Mojo.Log.error("Shizi.context.chars inner length is ", Shizi.context.chars.length);
-/*        		Mojo.Controller.StageController.pushScene("showChar",chars);/*.forEach(function (r) {
- //       	    	console.log (typeof r);
-        	    	chars.push(r); // simply adds the whole record to the array
-        	    	Mojo.Log.info("row from db is ", r.ch); 
-        	    });*/
-        	});
-        });
+        persistence.flush();
    	});
-
-    Mojo.Log.error("Shizi.context.chars outter length is ", Shizi.context.chars.length);
+    var tmp;
+	allChars = Char.all().order("latin", false);
+	allChars.list(null, function (results) {
+//		Mojo.Log.error("the result length is ", results.length);
+		chars = results;
+		//Shizi.context.chars = results;
+		Mojo.Log.error("Shizi.context.chars inner length is ", chars.length);
+		Mojo.Log.error("shizi char is ", chars[1].ch);//Shizi.context.chars.length);
+	});
+	Mojo.Log.error("chars outter length is ", chars.length);
+	Mojo.Log.error("Shizi.context.chars outter length is ", typeof chars);//Shizi.context.chars.length);
     
-//    this.controller.pushScene("showChar", Shizi.context.chars);
+    this.controller.pushScene("showChar",chars);//, tmp);//Shizi.context.chars);
 };
 
 StageAssistant.prototype.handleCommand = function(event) {
