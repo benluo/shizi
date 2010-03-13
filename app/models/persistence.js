@@ -69,10 +69,7 @@ var persistence = window.persistence || {};
      */
     persistence.transaction = function (callback) {
       if(!persistence._conn) {
-        throw {
-          type: "NoActiveDatabase",
-          message: "No ongoing database connection, please connect first."
-        };
+        throw "No ongoing database connection, please connect first.";
       } else {
         persistence._conn.transaction(callback);
       }
@@ -1213,7 +1210,7 @@ var persistence = window.persistence || {};
       };
 
       LocalQueryCollection.prototype.list = function(callback) {
-        if(callback.executeSql) { // first argument is transaction
+        if(!callback || callback.executeSql) { // first argument is transaction
           callback = arguments[1]; // set to second argument
         }
         var array = [];
