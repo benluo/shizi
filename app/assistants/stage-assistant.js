@@ -32,30 +32,31 @@ StageAssistant.prototype.setup = function() {
     	py: "TEXT"
     });
     persistence.schemaSync(function(tx){
-/*        var chinese ={};
-        for (var i=0 ; i< charslib.length; i++) {
+	var allChars = Char.all();
+	if (allchars == null){
+	    var chinese ={};
+            for (var i=0 ; i< charslib.length; i++) {
         	chinese = charslib[i];
-        	//	Mojo.Log.error("All Chars is ", chinese.ch);
         	var t = new Char();
         	t.gr = chinese.gr;
         	t.latin = chinese.latin;
         	t.ch = chinese.ch;
         	t.py = chinese.py;
         	persistence.add(t);
-        } */
+            }
+	}
         persistence.flush();
-   	});
+    });
     var tmp;
-	allChars = Char.all().order("latin", false);
-	allChars.list(null, function (results) {
-//		Mojo.Log.error("the result length is ", results.length);
-		chars = results;
-		//Shizi.context.chars = results;
-		Mojo.Log.error("Shizi.context.chars inner length is ", chars.length);
-		Mojo.Log.error("shizi char is ", chars[1].ch);//Shizi.context.chars.length);
-	});
-	Mojo.Log.error("chars outter length is ", chars.length);
-	Mojo.Log.error("Shizi.context.chars outter length is ", typeof chars);//Shizi.context.chars.length);
+    allChars = Char.all().order("latin", false);
+    allChars.list(null, function (results) {
+	chars = results;
+	//Shizi.context.chars = results;
+	Mojo.Log.error("Shizi.context.chars inner length is ", chars.length);
+	Mojo.Log.error("shizi char is ", chars[1].ch);//Shizi.context.chars.length);
+    });
+    Mojo.Log.error("chars outter length is ", chars.length);
+    Mojo.Log.error("Shizi.context.chars outter length is ", typeof chars);//Shizi.context.chars.length);
     
     this.controller.pushScene("showChar",chars);//, tmp);//Shizi.context.chars);
 };
