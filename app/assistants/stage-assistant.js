@@ -17,48 +17,51 @@ Shizi.MenuModel = {
 };
 
 var Char = {};
-var chars = [];
+//var chars = [];
 function StageAssistant() {
 };
 
 StageAssistant.prototype.setup = function() {
 //Initiate database
-	//var chars;
-    persistence.connect("charslib", "Chinese Charactor Lib", 254 * 1024);
+    var that = this;
+    persistence.connect("charslib", "Chinese Charactor Lib", 800 * 1024);
     Char = persistence.define("Charlib", {
     	gr: "TEXT",
     	latin: "TEXT",
     	ch: "TEXT",
     	py: "TEXT"
     });
+    var chars = [];
     persistence.schemaSync(function(tx){
-	var allChars = Char.all();
-	if (allchars == null){
-	    var chinese ={};
-            for (var i=0 ; i< charslib.length; i++) {
-        	chinese = charslib[i];
-        	var t = new Char();
-        	t.gr = chinese.gr;
-        	t.latin = chinese.latin;
-        	t.ch = chinese.ch;
-        	t.py = chinese.py;
-        	persistence.add(t);
-            }
+	var chinese ={};
+        for (var i=0 ; i< charslib.length; i++) {
+            chinese = charslib[i];
+            var t = new Char();
+            t.gr = chinese.gr;
+            t.latin = chinese.latin;
+            t.ch = chinese.ch;
+            t.py = chinese.py;
+            persistence.add(t);
 	}
-        persistence.flush();
-    });
-    var tmp;
-    allChars = Char.all().order("latin", false);
-    allChars.list(null, function (results) {
-	chars = results;
-	//Shizi.context.chars = results;
-	Mojo.Log.error("Shizi.context.chars inner length is ", chars.length);
-	Mojo.Log.error("shizi char is ", chars[1].ch);//Shizi.context.chars.length);
-    });
-    Mojo.Log.error("chars outter length is ", chars.length);
-    Mojo.Log.error("Shizi.context.chars outter length is ", typeof chars);//Shizi.context.chars.length);
-    
-    this.controller.pushScene("showChar",chars);//, tmp);//Shizi.context.chars);
+        persistence.flush(tx, function(){
+	    Char.all().order("latin", false).list(tx, function (results) {
+		results.forEach(function (r){
+		    chars.push(r);
+//		    Mojo.Log.error("this is %s in %s", r.latin, r.ch);
+		});
+		that.controller.pushScene("showChar",chars);
+/*		results.forEach(function (r) {
+		    chars.push(r);
+		    Mojo.Log.error("char latin is ", r.latin);
+		});
+	    });*/
+	    });
+	});
+
+//    Mojo.Log.error("Shizi.context.chars outter length is ", typeof chars);
+    });   
+//    Mojo.Log.error("chars outter length is ", chars.length);
+ //   this.controller.pushScene("showChar",chars);
 };
 
 StageAssistant.prototype.handleCommand = function(event) {
