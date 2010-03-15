@@ -33,33 +33,35 @@ StageAssistant.prototype.setup = function() {
     });
     var chars = [];
     persistence.schemaSync(function(tx){
-	var chinese ={};
-        for (var i=0 ; i< charslib.length; i++) {
-            chinese = charslib[i];
-            var t = new Char();
-            t.gr = chinese.gr;
-            t.latin = chinese.latin;
-            t.ch = chinese.ch;
-            t.py = chinese.py;
-            persistence.add(t);
-	}
-        persistence.flush(tx, function(){
-	    Char.all().order("latin", false).list(tx, function (results) {
-		results.forEach(function (r){
-		    chars.push(r);
-//		    Mojo.Log.error("this is %s in %s", r.latin, r.ch);
-		});
-		that.controller.pushScene("showChar",chars);
-/*		results.forEach(function (r) {
-		    chars.push(r);
-		    Mojo.Log.error("char latin is ", r.latin);
-		});
-	    });*/
-	    });
+	//check if the database is exist, if so, skip inserting json file to database;
+    	Char.all().list(tx, function(results){
+    	    if (results.length == 0){
+    		var chinese ={};
+    	        for (var i=0 ; i< charslib.length; i++) {
+    		    chinese = charslib[i];
+    		    var t = new Char();
+    		    t.gr = chinese.gr;
+    		    t.latin = chinese.latin;
+    		    t.ch = chinese.ch;
+    		    t.py = chinese.py;
+    		    persistence.add(t);
+    	        }
+    	    }
+    	});
+    	persistence.flush();
+    });
+
+    Char.all().order("latin", false).list(null, function (results) {
+    	results.forEach(function (r){
+    	    chars.push(r);
+	    //		    Mojo.Log.error("this is %s in %s", r.latin, r.ch);
 	});
+	that.controller.pushScene("showChar",chars);
+    });
+
 
 //    Mojo.Log.error("Shizi.context.chars outter length is ", typeof chars);
-    });   
+  
 //    Mojo.Log.error("chars outter length is ", chars.length);
  //   this.controller.pushScene("showChar",chars);
 };
@@ -71,7 +73,7 @@ StageAssistant.prototype.handleCommand = function(event) {
         var currentScene = this.controller.activeScene();
             currentScene.showAlertDialog({
                 onChoose: function(value) {},
-                title: $L("Shizi 鈥� v#{version}").interpolate({
+                title: $L("Shizi v#{version}").interpolate({
             version: Shizi.versionString}),
                 message: $L("For my son Yuan Yuan. \nCopyright 2009, Ben Luo."),
                 choices:[
