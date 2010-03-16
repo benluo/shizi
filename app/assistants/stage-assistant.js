@@ -51,10 +51,9 @@ StageAssistant.prototype.setup = function() {
     	persistence.flush();
     });
 
-    Char.all().order("latin", false).list(null, function (results) {
+    Char.all().filter("gr","=","1a").order("latin", false).list(null, function (results) {
     	results.forEach(function (r){
     	    chars.push(r);
-	    //		    Mojo.Log.error("this is %s in %s", r.latin, r.ch);
 	});
 	that.controller.pushScene("showChar",chars);
     });
