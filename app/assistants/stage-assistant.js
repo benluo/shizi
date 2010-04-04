@@ -51,17 +51,13 @@ StageAssistant.prototype.setup = function() {
     	persistence.flush();
     });
 
-    Char.all().filter("gr","=","1a").order("latin", false).list(null, function (results) {
+    Char.all().filter("gr","=","1a").filter("latin","=","shi").order("latin", false).list(null, function (results) {
     	results.forEach(function (r){
     	    chars.push(r);
 	});
 	that.controller.pushScene("showChar",chars);
     });
 
-
-//    Mojo.Log.error("Shizi.context.chars outter length is ", typeof chars);
-  
-//    Mojo.Log.error("chars outter length is ", chars.length);
  //   this.controller.pushScene("showChar",chars);
 };
 
@@ -74,7 +70,7 @@ StageAssistant.prototype.handleCommand = function(event) {
                 onChoose: function(value) {},
                 title: $L("Shizi v#{version}").interpolate({
             version: Shizi.versionString}),
-                message: $L("For my son Yuan Yuan. \nCopyright 2009, Ben Luo."),
+                message: $L("For my son Yuan Yuan. \nCopyright 2010, Ben Luo."),
                 choices:[
                     {label:$L("OK"), value:""}
                 ],

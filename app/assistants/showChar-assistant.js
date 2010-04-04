@@ -3,28 +3,14 @@ function ShowCharAssistant(charlibs) {
 	   additional parameters (after the scene name) that were passed to pushScene. The reference
 	   to the scene controller (this.controller) has not be established yet, so any initialization
 	   that needs the scene controller should be done in the setup function below. */
-    this.charindex = 0;
+    this.charIndex = 0;
     this.chars = charlibs;
     this.charNumber = this.chars.length;
-    this.charstatus = 0; //0 means Chinese, 1 is Pinyin
+    this.charStatus = 0; //0 means Chinese, 1 is Pinyin
 }
 
-ShowCharAssistant.prototype.handlePreButtonPress = function(event){
-    if (this.charindex > 0){
-	this.charindex--;
-    }
-    var character = this.chars[this.charindex].ch;
-    this.controller.get("onechar").update(character);
-}
 
-ShowCharAssistant.prototype.handleNextButtonPress = function(event){
-    if (this.charindex < this.charNumber-1) {
-	this.charindex++;
-    }
-    var character  = this.chars[this.charindex].ch;
-    this.controller.get("onechar").update(character);
-}
-
+/*
 ShowCharAssistant.prototype.handleOnecharPress = function(event){
     this.charstatus = !this.charstatus;
     if (this.charstatus == 0) {
@@ -35,7 +21,7 @@ ShowCharAssistant.prototype.handleOnecharPress = function(event){
     }
     this.controller.get("onechar").update(character);
 }
-
+*/
 
 ShowCharAssistant.prototype.setup = function() {
     // this function is for setup tasks that have to happen when 
@@ -44,38 +30,64 @@ ShowCharAssistant.prototype.setup = function() {
     /* use Mojo.View.render to render view templates and add them to the scene, if needed. */
     
     /* setup widgets here */
+
+    //setup command Menu
+
+    this.charMenuModel = {
+	visible: true,
+	items: [
+	    {items: []},//{icon: "back", command: "do-charPrevious"}]},
+	    {},
+	    {items: []} //{icon: "forward", command: "do-charNext"}]}
+	]};
+    if (this.charIndex > 0) {
+	this.charMenuModel.items[0].items=[{icon: "back", command: "do-charPrevious"}];
+    }
+    
+    if (this.charIndex < this.charNumber-1) {
+	this.charMenuModel.items[2].items=[{icon: "forward", command: "do-charNext"}];
+    }
+
+    this.controller.setupWidget(Mojo.Menu.commandMenu, undefined, this.charMenuModel);
     
     // Setup App Menu
     this.controller.setupWidget(Mojo.Menu.appMenu, Shizi.MenuAttr, Shizi.MenuModel);
-	
-	
-	/* add event handlers to listen to events from widgets */
-    this.nextModel = {
-	buttonLabel: $L("Next"),
-	disabled: false,
-    };
-    this.previousModel = {
-	buttonLabel: $L("Previous"),
-	disabled: false,
-    };
-    this.voiceModel = {
-	buttonLabel: $L("Voice"),
-	disabled: false,
-    };
-    
-    this.controller.setupWidget("prevButton", {},
-				this.previousModel);
-    this.controller.setupWidget("nextButton", {},
-				this.nextModel);
-    this.controller.setupWidget("voiceButton", {},
-				this.voiceModel);
-    this.controller.listen("nextButton", Mojo.Event.tap, 
-			   this.handleNextButtonPress.bind(this));
-    this.controller.listen("prevButton", Mojo.Event.tap,
-			   this.handlePreButtonPress.bind(this));
-    this.controller.listen("onechar", Mojo.Event.tap,
-			   this.handleOnecharPress.bind(this));
+
 }
+
+ShowCharAssistant.prototype.handleCommand = function(event) {
+    if(event.type == Mojo.Event.command) {
+	switch(event.command) {
+        case "do-charNext":
+	    if (this.charIndex < this.charNumber-1) {
+		this.charIndex++;
+		if (this.charIndex==1){
+		    this.charMenuModel.items[0].items=[{icon: "back", command: "do-charPrevious"}];
+		    this.controller.modelChanged(this.charMenuModel, this);
+		}
+		if (this.charIndex == this.charNumber-1) {
+		    this.charMenuModel.items[2].items=[];
+		    this.controller.modelChanged(this.charMenuModel, this);
+		}
+	    }
+            break;
+	case "do-charPrevious":
+	    if (this.charIndex > 0){
+		this.charIndex--;
+		if (this.charIndex == this.charNumber-2){
+		    this.charMenuModel.items[2].items=[{icon: "forward", command: "do-charNext"}];
+		    this.controller.modelChanged(this.charMenuModel, this);
+		}
+		if (this.charIndex == 0) {
+		    this.charMenuModel.items[0].items=[];
+		    this.controller.modelChanged(this.charMenuModel, this);
+		}
+	    }
+	    break;
+	}
+	$("onechar").update(this.chars[this.charIndex].ch);
+    }
+};
 
 ShowCharAssistant.prototype.activate = function(event) {
 	/* put in event handlers here that should only be in effect when this scene is active. For
