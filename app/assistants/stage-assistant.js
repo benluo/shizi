@@ -10,6 +10,10 @@ Shizi.MenuAttr = {omitDefaultItems: true};
 Shizi.MenuModel = {
     visible: true,
     items: [
+	{label: $L("Select Groups"), command: "do-selectGroups"},
+	{label: $L("Test"), command: "do-test"},
+	{label: $L("Make Word"), command: "do-wordAssm"},
+	{label: $L("Make Sentence"), command: "do-sentAssm"},
         {label: $L("About Shizi..."), command: "do-aboutShizi"},
         Mojo.Menu.editItem,
         Mojo.Menu.helpItem
@@ -51,6 +55,10 @@ StageAssistant.prototype.setup = function() {
     	persistence.flush();
     });
 
+    if (!Shizi.context) {
+	this.controller.pushScene("selectGroups");
+    }
+
     Char.all().filter("gr","=","1a").filter("latin","=","shi").order("latin", false).list(null, function (results) {
     	results.forEach(function (r){
     	    chars.push(r);
@@ -64,18 +72,30 @@ StageAssistant.prototype.setup = function() {
 StageAssistant.prototype.handleCommand = function(event) {
     if(event.type == Mojo.Event.command) {
     switch(event.command) {
-        case "do-aboutShizi":
+    case "do-selectGroups":
+	this.controller.pushScene("selectGroups");
+	break;
+    case "do-test":
+	this.controller.pushScene("test");
+	break;
+    case "do-wordAssm":
+	this.controller.pushScene("wordAssm");
+	break;
+    case "do-sentAssm":
+	this.controller.pushScene("sentAssm");
+	break;
+    case "do-aboutShizi":
         var currentScene = this.controller.activeScene();
             currentScene.showAlertDialog({
                 onChoose: function(value) {},
                 title: $L("Shizi v#{version}").interpolate({
-            version: Shizi.versionString}),
+		    version: Shizi.versionString}),
                 message: $L("For my son Yuan Yuan. \nCopyright 2010, Ben Luo."),
                 choices:[
                     {label:$L("OK"), value:""}
                 ],
             });
-            break;
+        break;
         }
     }
 };
