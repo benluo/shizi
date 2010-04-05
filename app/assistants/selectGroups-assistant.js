@@ -25,7 +25,7 @@ SelectGroupsAssistant.prototype.setup = function() {
             template: 'selectGroups/groupName-dialog',
             assistant: new GroupNameDialogAssistant()
         });
-	this.controller.swapScene("selectChars");
+	this.controller.swapScene("selectChars", );
     }
 	
     /* Setup App Menu */
