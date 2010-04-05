@@ -6,43 +6,51 @@ function GroupNameDialogAssistant() {
 }
 
 GroupNameDialogAssistant.prototype.handleOkButtonPress = function(event){
-  //  this.stageController = this.controller.stageController();
-    var usersNo = Shizi.users.length;
-    Shizi.users[usersNo] = {name: this.userModel.value,
-			   selectedLibs: [],
-			   currentLib: 0,
-			   learnedChars: [],
-			   lastLearnedChar: ""
-			  };
+    Shizi.context.groups.push({name: this.groupNameModel.value, chars: []});
     Shizi.Cookies.storeCookie();
-    this.controller.swapScene("showChar", ???);
+    this.controller.swapScene("selectGroups");
+}
+
+GroupNameDialogAssistant.prototype.handleOkButtonPress = function(event){
+    this.controller.popScene(); //?
 }
 
 GroupNameDialogAssistant.prototype.setup = function() {
 
-    if (!Shizi.context.currentGroup){
-	this.controller.showDialog({
-            template: 'selectGroups/groupName-dialog',
-            assistant: new GroupNameDialogAssistant()
-        });
-	this.controller.swapScene("selectChars");
-    }
-	
-    /* Setup App Menu */
-    this.controller.setupWidget(Mojo.Menu.appMenu, Shizi.MenuAttr, Shizi.MenuModel);
-    
     /* use Mojo.View.render to render view templates and add them to the scene, if needed. */
 	
     /* setup widgets here */
+
     this.okModel = {
 	buttonLabel: $L("OK"),
+	disabled: false,
+    };
+    this.cancelModel = {
+	buttonLabel: $L("Cancel"),
+	disabled: false,
     };
 
     this.controller.setupWidget("okButton", {},
 				this.okModel);
-	
-    /* add event handlers to listen to events from widgets */
-    this.controller.listen("okButton", Mojo.Event.tap, this.handleOkButtonPress.bind(this));
+    this.controller.setupWidget("cancelButton", {},
+				this.cancelModel);
+    this.controller.setupWidget("newGroupName",
+		this.attributes = {
+		    hintText: $L('Input new group name and hit Enter'),
+		    multiline: false,
+		    enterSubmits: false,
+		    focus: true
+		},
+		this.groupNameModel = {
+		    value: "",
+		    disabled: false
+		});
+
+	/* add event handlers to listen to events from widgets */
+    this.controller.listen("okButton", Mojo.Event.tap, 
+			   this.handleOkButtonPress.bind(this));
+    this.controller.listen("cancelButton", Mojo.Event.tap, 
+			   this.handleCancelButtonPress.bind(this));
 
 };
 
