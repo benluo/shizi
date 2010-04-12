@@ -11,6 +11,7 @@ Shizi.MenuModel = {
     visible: true,
     items: [
 	{label: $L("Select Groups"), command: "do-selectGroups"},
+	{label: $L("Learn Chars"), command: "do-learnChars"},
 	{label: $L("Test"), command: "do-test"},
 	{label: $L("Make Word"), command: "do-wordAssm"},
 	{label: $L("Make Sentence"), command: "do-sentAssm"},
@@ -26,10 +27,20 @@ function StageAssistant() {
 };
 
 StageAssistant.prototype.setup = function() {
+// Shizi context
+
+    Shizi.context = {
+	groups: [], 
+	currentGroup: -1, 
+	currentChar: -1
+    }; //because the groups and char are from 0.
+    Shizi.Cookies.initialize();
+    
 //Initiate database
     var that = this;
     persistence.connect("charslib", "Chinese Charactor Lib", 800 * 1024);
     Char = persistence.define("Charlib", {
+	charID: "INT",
     	gr: "TEXT",
     	latin: "TEXT",
     	ch: "TEXT",
@@ -44,6 +55,7 @@ StageAssistant.prototype.setup = function() {
     	        for (var i=0 ; i< charslib.length; i++) {
     		    chinese = charslib[i];
     		    var t = new Char();
+		    t.charID = chinese.charID;
     		    t.gr = chinese.gr;
     		    t.latin = chinese.latin;
     		    t.ch = chinese.ch;
@@ -54,8 +66,9 @@ StageAssistant.prototype.setup = function() {
     	});
     	persistence.flush();
     });
-
-    if (!Shizi.context) {
+    
+    if (Shizi.context.currentGroup < 0) {
+	Mojo.Log.error("context ", Shizi.context.currentGroup);
 	this.controller.pushScene("selectGroups");
     }
 
@@ -74,6 +87,9 @@ StageAssistant.prototype.handleCommand = function(event) {
     switch(event.command) {
     case "do-selectGroups":
 	this.controller.pushScene("selectGroups");
+	break;
+    case "do-learnChars":
+	this.controller.pushScene("showChar", charslib);
 	break;
     case "do-test":
 	this.controller.pushScene("test");
@@ -102,5 +118,5 @@ StageAssistant.prototype.handleCommand = function(event) {
 
 // Deactivate - save users information
 StageAssistant.prototype.deactivate = function() {
-    Shizi.Cookie.storeCookie();
+    Shizi.Cookies.storeCookie();
 };

@@ -1,0 +1,25 @@
+[00:23] <BigBiff> hello all - nice day
+[00:27] <BigBiff> anyone dealt with dynamically styling rows in a list?
+[00:28] <BigBiff> just not sure which row div to put styling info - ive tried every combination with no success
+[00:37] == noaXess [~noaXess@cust.dyn.95-152-93-4.swisscomdata.ch] has quit [Ping timeout: 246 seconds]
+[00:41] <Roy-Pre101> BigBiff: I just did this.
+[00:42] <Roy-Pre101> You must make your CSS more specific than Palm's to overload the row.
+[00:42] <Roy-Pre101> override
+[00:42] <BigBiff> i see
+[00:42] <Roy-Pre101> You want to do something like alternating rows or just have a specific class by row?
+[00:46] <Roy-Pre101> Here's some CSS from my alternating rows:
+[00:46] <BigBiff> something like - if listmodel.value = 3, row background is blue
+[00:47] <Roy-Pre101> .content-scroller .palm-row-odd {
+[00:47] <Roy-Pre101>   background-color: rgba(255, 255, 255, 0.1);
+[00:47] <Roy-Pre101> }
+[00:47] <Roy-Pre101> I added the class content-scroller to the scroller containing my list (though you could probably put it on the list)
+[00:47] <BigBiff> k
+[00:47] <Roy-Pre101> Then, in the list item template
+[00:48] <Roy-Pre101> <div class="palm-row #{row_class}">
+[00:48] <Roy-Pre101> And I added a field to the model list called 'row_class'
+[00:49] <BigBiff> ahhhhhhhhhhhh
+[00:49] <BigBiff> i didnt even think about adding a template for a class
+[00:49] <Roy-Pre101> I need to document that on webos101
+[00:49] <BigBiff> yes - that's good stuff
+[00:51] <BigBiff> so you answered question2
+[00:51] <BigBiff> the styling goes in palm-row, not palm-row wrapper
