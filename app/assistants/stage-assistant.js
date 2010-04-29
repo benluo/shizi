@@ -71,14 +71,15 @@ StageAssistant.prototype.setup = function() {
 	Mojo.Log.error("context ", Shizi.context.currentGroup);
 	this.controller.pushScene("selectGroups");
     }
-
+    this.controller.pushScene("selectGroups");
+/*
     Char.all().filter("gr","=","1a").filter("latin","=","shi").order("latin", false).list(null, function (results) {
     	results.forEach(function (r){
     	    chars.push(r);
 	});
 	that.controller.pushScene("showChar",chars);
     });
-
+*/
  //   this.controller.pushScene("showChar",chars);
 };
 

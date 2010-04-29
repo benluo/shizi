@@ -30,5 +30,6 @@
     {
         "scenes": "selectGroups",
         "source": "app/assistants/selectGroups-assistant.js"
-    }
+    },
+    {   "source": "app/assistants/groupNameDialog-assistant.js"}
 ]
