@@ -46,20 +46,32 @@ SelectGroupsAssistant.prototype.setup = function() {
     /* use Mojo.View.render to render view templates and add them to the scene, if needed. */
 	
     /* setup widgets here */
+    this.groupListModel = {
+	items: Shizi.predefinedGroups
+    };
+    this.controller.setupWidget("groupList",
+	{
+	    itemTemplate: "selectGroups/groupRowTemplate",
+	    listTemplate: "selectGroups/groupListTemplate",
+	    swipeToDelete: false,
+	    renderLimit: 40,
+	    reorderable: false
+	}, this.groupListModel);
+
     this.newGroupModel = {
 	buttonLabel: $L("Add New Group"),
 	disabled: false,
     };
+    this.controller.setupWidget("newGroupButton", {}, this.newGroupModel);
     this.okModel = {
 	buttonLabel: $L("OK"),
 	disabled: false,
     };
+    this.controller.setupWidget("okButton", {}, this.okModel);
     this.cancelModel = {
 	buttonLabel: $L("Cancel"),
 	disabled: false,
     };
-    this.controller.setupWidget("newGroupButton", {}, this.newGroupModel);
-    this.controller.setupWidget("okButton", {}, this.okModel);
     this.controller.setupWidget("cancelButton", {}, this.cancelModel);
 	
     /* add event handlers to listen to events from widgets */

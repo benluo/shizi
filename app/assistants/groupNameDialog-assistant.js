@@ -5,10 +5,9 @@ function GroupNameDialogAssistant(sceneAssistant) {
     this.sceneAssistant = sceneAssistant;
 };
 
-GroupNameDialogAssistant.prototype.handleOkButtonPress = function(){
-    Mojo.Log.error("Dialog OK handle called");
- //   Shizi.context.groups.push({name: this.groupNameModel.value, chars: []});
- //   Shizi.Cookies.storeCookie();
+GroupNameDialogAssistant.prototype.okButtonPress = function(){
+    Shizi.context.groups.push({name: this.groupNameModel.value, chars: []});
+    Shizi.Cookies.storeCookie();
     this.widget.mojo.close();
 };
 
@@ -16,7 +15,6 @@ GroupNameDialogAssistant.prototype.setup = function(widget) {
     this.widget = widget;
     /* use Mojo.View.render to render view templates and add them to the scene, if needed. */
 
-    Mojo.Log.error("GreoupNameDialogAssistant setup() called.");
     /* setup widgets here */
 
     this.okModel = {
@@ -42,11 +40,11 @@ GroupNameDialogAssistant.prototype.setup = function(widget) {
 		    disabled: false
 		});
 	/* add event handlers to listen to events from widgets */
-    this.okButtonPress = this.hanleOkButtonPress.bind(this);
-//    this.sceneAssistant.controller.listen(this.sceneAssistant.controller.get("nameOkButton"),
-//			Mojo.Event.tap, this.hanleOkButtonPress.bind(this));
-//    this.sceneAssistant.controller.listen(this.sceneAssistant.controller.get("nameCancelButton"), 
-//			Mojo.Event.tap, this.widget.mojo.close);
+    this.okButtonPressHandler = this.okButtonPress.bindAsEventListener(this); // Don't know why can not use bind, only can use bindAsEventListener
+    this.sceneAssistant.controller.listen(this.sceneAssistant.controller.get("nameOkButton"),
+					  Mojo.Event.tap, this.okButtonPressHandler);
+   this.sceneAssistant.controller.listen(this.sceneAssistant.controller.get("nameCancelButton"), 
+					 Mojo.Event.tap, this.widget.mojo.close);
 };
 
 GroupNameDialogAssistant.prototype.activate = function() {

@@ -14,6 +14,9 @@
 ** Use sentences to learn characters
 ** Add check pinyin function in menu.
 
+* groupNameDialog-assistant.js
+**  this.okButtonPressHandler = this.okButtonPress.bindAsEventListener(this); // Don't know why can not use bind, only can use bindAsEventListener
+
 * Register scene
 ** Cancel button function
 
