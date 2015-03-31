@@ -1,0 +1,1 @@
+This project is a webOS (Palm Pre and Pixi) app. It can assistant Chinese Children or foreigner to learn Chinese Charactors.
